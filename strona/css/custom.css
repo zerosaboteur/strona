@@ -13,7 +13,9 @@ p {
     line-height: 1.7em;
     color: #999;
 }
-
+#pasek{
+    position: fixed;
+}
 a, a:hover, a:focus {
     color: inherit;
     text-decoration: none;
@@ -33,12 +35,17 @@ a, a:hover, a:focus {
     box-shadow: none;
     outline: none !important;
     border: none;
+    bottom: 20px;
+    left:10px;
+    position: fixed;
+    z-index: 99;
+    padding:10px 4px;
 }
 
 .line {
     width: 100%;
     height: 1px;
-    border-bottom: 1px dashed #ddd;
+    border-bottom: 2px dashed #ddd;
     margin: 40px 0;
 }
 
@@ -63,6 +70,7 @@ i, span {
     min-width: 80px;
     max-width: 80px;
     text-align: center;
+
 }
 
 #sidebar.active .sidebar-header h3, #sidebar.active .CTAs {
@@ -138,13 +146,13 @@ i, span {
 
 
 a[data-toggle="collapse"] {
-    position: relative;
+    position: fixed;
 }
 
 a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
     content: '\e259';
     display: block;
-    position: absolute;
+    position: fixed;
     right: 20px;
     font-family: 'Glyphicons Halflings';
     font-size: 0.6em;
@@ -172,11 +180,6 @@ ul.CTAs a {
     margin-bottom: 5px;
 }
 
-a.download {
-    background: #fff;
-    color: #7386D5;
-}
-
 a.article, a.article:hover {
     background: #6d7fcc !important;
     color: #fff !important;
@@ -186,6 +189,7 @@ a.article, a.article:hover {
     padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
+    
 }
 
 @media (max-width: 768px) {
@@ -238,6 +242,6 @@ a.article, a.article:hover {
         margin-left: 0;
     }
     #sidebarCollapse span {
-        display: none;
+        display: block;
     }
 }
