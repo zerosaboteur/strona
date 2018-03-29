@@ -6,12 +6,17 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <title>Jak tu trafiłeś ? O,o</title>
-
+        <!-- ikonki -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
         <link rel="stylesheet" href="css/bootstrap.min.css">
         
         <link rel="stylesheet" href="css/custom.css">
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+        
     </head>
     <body>
 
@@ -27,9 +32,9 @@
 
                 <ul class="list-unstyled components">
                     <li>
-                        <a href="projekty.html">
-                            <i class="material-icons">assessment</i>
-                            Projekty
+                        <a href="index.html">
+                            <i class="material-icons">home</i>
+                            Home
                         </a>
                     </li>
                     <li>
@@ -49,19 +54,31 @@
             <!-- Page Content Holder -->
             <div id="content">
 
+                            <button type="button" id="GitHub" class="btn btn-info" onClick="openInNewTab('https://github.com/zerosaboteur')">
+                                <i class="glyphicon glyphicon-align-left fa fa-github" style="font-size:24px" ></i>
+                                Zapraszam na mojego GitHuba 
+                            </button>
                 
                             <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
                                 <i class="glyphicon glyphicon-align-left material-icons">visibility</i>
                             </button>
                             <a id="toTop" href="#" class="btn btn-primary btn-lg toTop material-icons" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span>call_merge</a>
-	    
-
-                <div class="line"></div>
-                <p>Aktualności</p>
-                <h3>Tutaj trafiają nowe informacje</h3>
-                <div class="line"></div>
-                <p>Jak to wygląda?</p>
-                <div class="line" style="padding: 20px 20px 2500px"></div>
+                 <div id="mniejsze">
+                            Wygląd i funkcjonalność strony:
+                    <div class="progress" width="50%">
+                        <div class="progress-bar progress-bar-striped active" role="progressbar"
+                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                             60%
+                        </div>
+                    </div> 
+                        Forum(możliwośc komentowania ocen filmów przez zalogowanych uzykowników)
+                        <div class="progress" width="50%">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar"
+                                aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                                 20%
+                            </div>
+                        </div> 
+                </div>
             </div>
         </div>
 
