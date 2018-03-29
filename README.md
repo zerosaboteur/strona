@@ -1,5 +1,5 @@
 # strona
 TODO:
-przycisk powrotu do poczatku strony;
+przeniesienie skryptow do zewnetrznych plikwo;
 forum;
 cv pod "o mnie";
