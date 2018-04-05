@@ -205,11 +205,21 @@ a.article, a.article:hover {
     min-height: 100vh;
     transition: all 0.3s;
 }
+#duze{
+    padding: 20px;
+    width:75%;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
 #GitHub{
     background-color: rgb(42, 70, 105) !important;
     border-color: rgb(42, 70, 105) !important;
 }
-
+#profilowe{
+    position: absolute;
+    top: 60px;
+    right: 60px;
+}
 @media (max-width: 768px) {
     #sidebar {
         min-width: 80px;
